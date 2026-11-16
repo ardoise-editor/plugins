@@ -36,6 +36,18 @@
         "fr": "Ce qu'étaient les fichiers, gardé sur cette machine : comparer, restaurer, labels"
       },
       "repository": "simple-edit-app/plugin-history"
+    },
+    {
+      "id": "simpleedit.tasks",
+      "name": {
+        "en": "Tasks",
+        "fr": "Tâches"
+      },
+      "description": {
+        "en": "Build, test and run the commands of a project with their output and errors",
+        "fr": "Compiler, tester et lancer les commandes d'un projet avec leur sortie et leurs erreurs"
+      },
+      "repository": "simple-edit-app/plugin-tasks"
     }
   ]
 }
