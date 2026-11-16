@@ -72,6 +72,18 @@
         "fr": "Des shells en onglets sous l'éditeur, avec historique et recherche"
       },
       "repository": "simple-edit-app/plugin-terminal"
+    },
+    {
+      "id": "simpleedit.api",
+      "name": {
+        "en": "API",
+        "fr": "API"
+      },
+      "description": {
+        "en": "A light Postman: requests, collections, environments, tests",
+        "fr": "Un Postman léger : requêtes, collections, environnements, tests"
+      },
+      "repository": "simple-edit-app/plugin-api"
     }
   ]
 }
