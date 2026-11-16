@@ -24,6 +24,18 @@
         "fr": "Les mots mal orthographiés soulignés, avec des suggestions et un dictionnaire personnel"
       },
       "repository": "simple-edit-app/plugin-spell"
+    },
+    {
+      "id": "simpleedit.history",
+      "name": {
+        "en": "Local History",
+        "fr": "Historique local"
+      },
+      "description": {
+        "en": "What files were, kept on this machine: compare, revert, labels",
+        "fr": "Ce qu'étaient les fichiers, gardé sur cette machine : comparer, restaurer, labels"
+      },
+      "repository": "simple-edit-app/plugin-history"
     }
   ]
 }
