@@ -1,4 +1,17 @@
 {
   "version": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "id": "simpleedit.lint",
+      "name": {
+        "en": "Lint",
+        "fr": "Lint"
+      },
+      "description": {
+        "en": "The problems that linters (ESLint, ruff, ShellCheck, Clippy…) find in a file, with their fixes",
+        "fr": "Les problèmes que les linters (ESLint, ruff, ShellCheck, Clippy…) trouvent dans un fichier, avec leurs corrections"
+      },
+      "repository": "simple-edit-app/plugin-lint"
+    }
+  ]
 }
