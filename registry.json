@@ -12,6 +12,18 @@
         "fr": "Les problèmes que les linters (ESLint, ruff, ShellCheck, Clippy…) trouvent dans un fichier, avec leurs corrections"
       },
       "repository": "simple-edit-app/plugin-lint"
+    },
+    {
+      "id": "simpleedit.spell",
+      "name": {
+        "en": "Spelling",
+        "fr": "Orthographe"
+      },
+      "description": {
+        "en": "Misspelled words underlined, with suggestions and a personal dictionary",
+        "fr": "Les mots mal orthographiés soulignés, avec des suggestions et un dictionnaire personnel"
+      },
+      "repository": "simple-edit-app/plugin-spell"
     }
   ]
 }
