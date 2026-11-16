@@ -48,6 +48,18 @@
         "fr": "Compiler, tester et lancer les commandes d'un projet avec leur sortie et leurs erreurs"
       },
       "repository": "simple-edit-app/plugin-tasks"
+    },
+    {
+      "id": "simpleedit.remote",
+      "name": {
+        "en": "Remote Files",
+        "fr": "Fichiers distants"
+      },
+      "description": {
+        "en": "Open and edit files of another machine over SSH",
+        "fr": "Ouvrir et modifier les fichiers d'une autre machine par SSH"
+      },
+      "repository": "simple-edit-app/plugin-remote"
     }
   ]
 }
