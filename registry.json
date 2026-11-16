@@ -60,6 +60,18 @@
         "fr": "Ouvrir et modifier les fichiers d'une autre machine par SSH"
       },
       "repository": "simple-edit-app/plugin-remote"
+    },
+    {
+      "id": "simpleedit.terminal",
+      "name": {
+        "en": "Terminal",
+        "fr": "Terminal"
+      },
+      "description": {
+        "en": "Shells in tabs under the editor, with history and search",
+        "fr": "Des shells en onglets sous l'éditeur, avec historique et recherche"
+      },
+      "repository": "simple-edit-app/plugin-terminal"
     }
   ]
 }
