@@ -84,6 +84,18 @@
         "fr": "Un Postman léger : requêtes, collections, environnements, tests"
       },
       "repository": "simple-edit-app/plugin-api"
+    },
+    {
+      "id": "simpleedit.git",
+      "name": {
+        "en": "Git",
+        "fr": "Git"
+      },
+      "description": {
+        "en": "Commit, stash, log with its graph, branches, push and pull, blame, diffs and conflicts in tabs",
+        "fr": "Commit, remisage, historique avec son graphe, branches, push et pull, blame, diffs et conflits en onglets"
+      },
+      "repository": "simple-edit-app/plugin-git"
     }
   ]
 }
