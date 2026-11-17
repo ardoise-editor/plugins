@@ -96,6 +96,18 @@
         "fr": "Commit, remisage, historique avec son graphe, branches, push et pull, blame, diffs et conflits en onglets"
       },
       "repository": "simple-edit-app/plugin-git"
+    },
+    {
+      "id": "simpleedit.database",
+      "name": {
+        "en": "Database",
+        "fr": "Base de données"
+      },
+      "description": {
+        "en": "PostgreSQL, MySQL and SQLite: tables to edit, SQL console, designer, diagram",
+        "fr": "PostgreSQL, MySQL et SQLite : tables à modifier, console SQL, concepteur, diagramme"
+      },
+      "repository": "simple-edit-app/plugin-database"
     }
   ]
 }
