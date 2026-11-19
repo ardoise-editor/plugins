@@ -1,9 +1,9 @@
-# SimpleEdit official plugins
+# Ardoise Editor official plugins
 
 `registry.json` is the list of the official plugins that
-[SimpleEdit](https://github.com/simple-edit-app/simpleedit) shows in
+[Ardoise Editor](https://github.com/ardoise-editor/ardoise) shows in
 **Preferences › Plugins**. The editor reads it from
-`https://raw.githubusercontent.com/simple-edit-app/plugins/main/registry.json`.
+`https://raw.githubusercontent.com/ardoise-editor/plugins/main/registry.json`.
 
 ```json
 {
@@ -21,14 +21,18 @@
 
 An official plugin:
 
-- has an id that starts with `simpleedit.`, and its repository is in the
-  `simple-edit-app` organization (the editor ignores any other entry);
+- has an id that starts with `simpleedit.` (the namespace of the official
+  plugins, from before the editor was renamed: it stays), and its repository is
+  in the `ardoise-editor` organization (the editor ignores any other entry).
+  The entries below still say `simple-edit-app`, the former name of the
+  organization: the versions of the editor from before the rename only list
+  repositories under it, and GitHub sends them to the new name;
 - signs the `SHA256SUMS` of its releases (`SHA256SUMS.sig`) with the key of
-  SimpleEdit's own releases: the editor refuses an official plugin whose
+  the editor's own releases: the editor refuses an official plugin whose
   signature is missing or wrong.
 
 Anyone else's plugin is installed from its repository (`owner/name`) on the
 same page, after a warning. The guide to writing one:
-<https://simple-edit-app.github.io/simpleedit/plugins.html>.
+<https://ardoise-editor.github.io/ardoise/plugins.html>.
 
 `python3 check.py` checks the file; it runs on every push.
