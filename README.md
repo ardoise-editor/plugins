@@ -10,10 +10,10 @@
   "version": 1,
   "plugins": [
     {
-      "id": "simpleedit.lint",
+      "id": "ardoise.lint",
       "name": { "en": "Lint", "fr": "Lint" },
       "description": { "en": "Problems of the file as you type", "fr": "Les problèmes du fichier pendant la saisie" },
-      "repository": "simple-edit-app/plugin-lint"
+      "repository": "ardoise-editor/plugin-lint"
     }
   ]
 }
@@ -21,14 +21,10 @@
 
 An official plugin:
 
-- has an id that starts with `simpleedit.` (the namespace of the official
-  plugins, from before the editor was renamed: it stays), and its repository is
-  in the `ardoise-editor` organization (the editor ignores any other entry).
-  The entries below still say `simple-edit-app`, the former name of the
-  organization: the versions of the editor from before the rename only list
-  repositories under it, and GitHub sends them to the new name;
+- has an id that starts with `ardoise.`, and its repository is in the
+  `ardoise-editor` organization (the editor ignores any other entry);
 - signs the `SHA256SUMS` of its releases (`SHA256SUMS.sig`) with the key of
-  the editor's own releases: the editor refuses an official plugin whose
+  the releases of the editor: the editor refuses an official plugin whose
   signature is missing or wrong.
 
 Anyone else's plugin is installed from its repository (`owner/name`) on the

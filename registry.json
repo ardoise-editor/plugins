@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": [
     {
-      "id": "simpleedit.lint",
+      "id": "ardoise.lint",
       "name": {
         "en": "Lint",
         "fr": "Lint"
@@ -11,10 +11,10 @@
         "en": "The problems that linters (ESLint, ruff, ShellCheck, Clippy…) find in a file, with their fixes",
         "fr": "Les problèmes que les linters (ESLint, ruff, ShellCheck, Clippy…) trouvent dans un fichier, avec leurs corrections"
       },
-      "repository": "simple-edit-app/plugin-lint"
+      "repository": "ardoise-editor/plugin-lint"
     },
     {
-      "id": "simpleedit.spell",
+      "id": "ardoise.spell",
       "name": {
         "en": "Spelling",
         "fr": "Orthographe"
@@ -23,10 +23,10 @@
         "en": "Misspelled words underlined, with suggestions and a personal dictionary",
         "fr": "Les mots mal orthographiés soulignés, avec des suggestions et un dictionnaire personnel"
       },
-      "repository": "simple-edit-app/plugin-spell"
+      "repository": "ardoise-editor/plugin-spell"
     },
     {
-      "id": "simpleedit.history",
+      "id": "ardoise.history",
       "name": {
         "en": "Local History",
         "fr": "Historique local"
@@ -35,10 +35,10 @@
         "en": "What files were, kept on this machine: compare, revert, labels",
         "fr": "Ce qu'étaient les fichiers, gardé sur cette machine : comparer, restaurer, labels"
       },
-      "repository": "simple-edit-app/plugin-history"
+      "repository": "ardoise-editor/plugin-history"
     },
     {
-      "id": "simpleedit.tasks",
+      "id": "ardoise.tasks",
       "name": {
         "en": "Tasks",
         "fr": "Tâches"
@@ -47,10 +47,10 @@
         "en": "Build, test and run the commands of a project with their output and errors",
         "fr": "Compiler, tester et lancer les commandes d'un projet avec leur sortie et leurs erreurs"
       },
-      "repository": "simple-edit-app/plugin-tasks"
+      "repository": "ardoise-editor/plugin-tasks"
     },
     {
-      "id": "simpleedit.remote",
+      "id": "ardoise.remote",
       "name": {
         "en": "Remote Files",
         "fr": "Fichiers distants"
@@ -59,10 +59,10 @@
         "en": "Open and edit files of another machine over SSH",
         "fr": "Ouvrir et modifier les fichiers d'une autre machine par SSH"
       },
-      "repository": "simple-edit-app/plugin-remote"
+      "repository": "ardoise-editor/plugin-remote"
     },
     {
-      "id": "simpleedit.terminal",
+      "id": "ardoise.terminal",
       "name": {
         "en": "Terminal",
         "fr": "Terminal"
@@ -71,10 +71,10 @@
         "en": "Shells in tabs under the editor, with history and search",
         "fr": "Des shells en onglets sous l'éditeur, avec historique et recherche"
       },
-      "repository": "simple-edit-app/plugin-terminal"
+      "repository": "ardoise-editor/plugin-terminal"
     },
     {
-      "id": "simpleedit.api",
+      "id": "ardoise.api",
       "name": {
         "en": "API",
         "fr": "API"
@@ -83,10 +83,10 @@
         "en": "A light Postman: requests, collections, environments, tests",
         "fr": "Un Postman léger : requêtes, collections, environnements, tests"
       },
-      "repository": "simple-edit-app/plugin-api"
+      "repository": "ardoise-editor/plugin-api"
     },
     {
-      "id": "simpleedit.git",
+      "id": "ardoise.git",
       "name": {
         "en": "Git",
         "fr": "Git"
@@ -95,10 +95,10 @@
         "en": "Commit, stash, log with its graph, branches, push and pull, blame, diffs and conflicts in tabs",
         "fr": "Commit, remisage, historique avec son graphe, branches, push et pull, blame, diffs et conflits en onglets"
       },
-      "repository": "simple-edit-app/plugin-git"
+      "repository": "ardoise-editor/plugin-git"
     },
     {
-      "id": "simpleedit.database",
+      "id": "ardoise.database",
       "name": {
         "en": "Database",
         "fr": "Base de données"
@@ -107,7 +107,7 @@
         "en": "PostgreSQL, MySQL and SQLite: tables to edit, SQL console, designer, diagram",
         "fr": "PostgreSQL, MySQL et SQLite : tables à modifier, console SQL, concepteur, diagramme"
       },
-      "repository": "simple-edit-app/plugin-database"
+      "repository": "ardoise-editor/plugin-database"
     }
   ]
 }
