@@ -23,7 +23,7 @@ An official plugin:
 
 - has an id that starts with `ardoise.`, and its repository is in the
   `ardoise-editor` organization (the editor ignores any other entry);
-- signs the `SHA256SUMS` of its releases (`SHA256SUMS.sig`) with the key of
+- signs the `SHA256SUMS` of its releases (`SHA256SUMS.sig3`) with the key of
   the releases of the editor: the editor refuses an official plugin whose
   signature is missing or wrong.
 
