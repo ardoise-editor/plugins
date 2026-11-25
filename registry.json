@@ -98,6 +98,30 @@
       "repository": "ardoise-editor/plugin-git"
     },
     {
+      "id": "ardoise.github",
+      "name": {
+        "en": "GitHub",
+        "fr": "GitHub"
+      },
+      "description": {
+        "en": "Pull requests with their diffs and comments, GitHub Actions and tags, in the Git panel (Ardoise 2.8+)",
+        "fr": "Pull requests avec leurs diffs et commentaires, GitHub Actions et étiquettes, dans le panneau Git (Ardoise 2.8+)"
+      },
+      "repository": "ardoise-editor/plugin-github"
+    },
+    {
+      "id": "ardoise.gitlab",
+      "name": {
+        "en": "GitLab",
+        "fr": "GitLab"
+      },
+      "description": {
+        "en": "Merge requests with their diffs and comments, pipelines and tags, in the Git panel (Ardoise 2.8+)",
+        "fr": "Merge requests avec leurs diffs et commentaires, pipelines et étiquettes, dans le panneau Git (Ardoise 2.8+)"
+      },
+      "repository": "ardoise-editor/plugin-gitlab"
+    },
+    {
       "id": "ardoise.database",
       "name": {
         "en": "Database",
