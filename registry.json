@@ -104,8 +104,8 @@
         "fr": "Base de données"
       },
       "description": {
-        "en": "PostgreSQL, MySQL and SQLite: tables to edit, SQL console, designer, diagram",
-        "fr": "PostgreSQL, MySQL et SQLite : tables à modifier, console SQL, concepteur, diagramme"
+        "en": "PostgreSQL, MySQL, SQLite and DuckDB: tables to edit, SQL console, designer, diagram",
+        "fr": "PostgreSQL, MySQL, SQLite et DuckDB : tables à modifier, console SQL, concepteur, diagramme"
       },
       "repository": "ardoise-editor/plugin-database"
     }
