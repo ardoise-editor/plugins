@@ -132,6 +132,18 @@
         "fr": "PostgreSQL, MySQL, SQLite et DuckDB : tables à modifier, console SQL, concepteur, diagramme"
       },
       "repository": "ardoise-editor/plugin-database"
+    },
+    {
+      "id": "ardoise.docker",
+      "name": {
+        "en": "Docker",
+        "fr": "Docker"
+      },
+      "description": {
+        "en": "Containers, images, volumes, registries and Compose: shells, files, cleanup, ▶ and completion in Dockerfiles (Ardoise 2.10+)",
+        "fr": "Conteneurs, images, volumes, registres et Compose : shells, fichiers, nettoyage, ▶ et complétion dans les Dockerfile (Ardoise 2.10+)"
+      },
+      "repository": "ardoise-editor/plugin-docker"
     }
   ]
 }
