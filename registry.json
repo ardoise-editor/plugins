@@ -144,6 +144,18 @@
         "fr": "Conteneurs, images, volumes, registres et Compose : shells, fichiers, nettoyage, ▶ et complétion dans les Dockerfile (Ardoise 2.10+)"
       },
       "repository": "ardoise-editor/plugin-docker"
+    },
+    {
+      "id": "ardoise.ai",
+      "name": {
+        "en": "AI",
+        "fr": "IA"
+      },
+      "description": {
+        "en": "Claude Code in a panel: chat, permissions, accounts and conversations, status line, files followed (Ardoise 2.11+)",
+        "fr": "Claude Code dans un panneau : discussion, autorisations, comptes et conversations, statusline, suivi des fichiers (Ardoise 2.11+)"
+      },
+      "repository": "ardoise-editor/plugin-ai"
     }
   ]
 }
